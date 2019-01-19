@@ -13,7 +13,6 @@ lazy val root = (project in file("."))
 
         scriptedSbt := {
           scalaBinaryVersion.value match {
-                  case "2.10" => "0.13.7"
                   case "2.12" => "1.2.7"
           }
         },
